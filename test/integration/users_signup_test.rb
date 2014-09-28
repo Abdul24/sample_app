@@ -7,7 +7,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   #SyntaxError: /Users/abdulaleemseyed/Dropbox/rails_projects/sample_app/test/integration/users_signup_test.rb
   #:36: syntax error, unexpected keyword_end, expecting end-of-input
   #end
-
   def setup
     ActionMailer::Base.deliveries.clear
   end
